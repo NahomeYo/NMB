@@ -1,0 +1,58 @@
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #182e35;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #loading-spinner {
+    border: 10px solid #f3f3f3;
+    border-top: 16px solid #3498db00;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Hide the loading overlay once the website is loaded */
+  .loaded #loading-overlay {
+    display: none;
+  }  
+
+  @font-face {
+    font-family: 'Koulen';
+    src: url('css/Koulen.ttf') 
+  }
+  
+  p {
+    position: fixed;
+    font-size: 25px;
+    font-family: Koulen;
+    color: white;
+    text-align: center;
+    transform: translateY(1200%);
+    opacity: 0;
+    animation: fade-up 1s ease-in-out 1s forwards;
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(1200%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(600%);
+    }
+}
