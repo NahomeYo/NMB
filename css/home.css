@@ -1,11 +1,5 @@
 
-@media only screen and (max-width: 414px) {
-  body {
-    visibility: collapse;
-  }
-}
-
-/* screen - home */
+/* Default styles */
 html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -21,6 +15,14 @@ html, body {
   overflow-x: hidden;
   position: relative;
   width: 1800px;
+}
+
+/* Styles for iPhone 11 or smaller screens */
+@media only screen and (max-width: 414px) {
+  .home {
+    height: auto;
+    width: 100%;
+  }
 }
 
 .home .home-xl4bh6 {
