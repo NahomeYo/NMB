@@ -918,12 +918,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .im-an-aspiring-ui-graphic-designer-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+    transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .m-y-goal-is-to-alway-nb3zlc {
@@ -955,12 +955,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .exceed-expectations-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 1s; /* Add a 2 second delay to the transition */
 }
 
 .home .adobe-creative-cloud-nb3zlc {
@@ -985,12 +985,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 1.5s;
 }
 
 .home .nahome-headband-01-1-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 1.5s;
 }
 
 .home .n-ahome-y-ohannes-nb3zlc {
