@@ -1,3 +1,9 @@
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+  .home {
+    height: auto;
+    width: 100%;
+  }
+}
 
 /* Default styles */
 html, body {
@@ -15,14 +21,6 @@ html, body {
   overflow-x: hidden;
   position: relative;
   width: 1800px;
-}
-
-/* Styles for iPhone 11 or smaller screens */
-@media only screen and (max-width: 414px) {
-  .home {
-    height: auto;
-    width: 100%;
-  }
 }
 
 .home .home-xl4bh6 {
@@ -918,12 +916,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
+  transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .im-an-aspiring-ui-graphic-designer-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
-    transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .m-y-goal-is-to-alway-nb3zlc {
@@ -955,12 +953,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
+  transition-delay: 2s; /* Add a 2 second delay to the transition */
 }
 
 .home .exceed-expectations-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 1s; /* Add a 2 second delay to the transition */
 }
 
 .home .adobe-creative-cloud-nb3zlc {
@@ -985,12 +983,12 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
+  transition-delay: 1.5s;
 }
 
 .home .nahome-headband-01-1-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 1.5s;
 }
 
 .home .n-ahome-y-ohannes-nb3zlc {
@@ -1094,6 +1092,26 @@ html, body {
   position: absolute;
   top: 46px;
   width: 1706px;
+  stroke: rgb(255, 255, 255); 
+  stroke-width: 10;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.home .rectangle-10-nb3zlc {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  animation: draw 2s ease forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.home .rectangle-10-nb3zlc.animate-stroke-drawing {
+  animation: stroke-drawing 2s forwards;
 }
 
 .home .location-nb3zlc {
