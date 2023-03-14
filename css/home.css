@@ -992,7 +992,6 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 2.0s; 
 }
 
 .home .nahome-headband-01-1-nb3zlc.fade-up {
