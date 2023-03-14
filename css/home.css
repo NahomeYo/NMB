@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Koulen';
+  src: "css/Koulen-Regular.ttf";
+}
+
 @media only screen and (max-width: 414px) and (max-height: 896px) {
   .home {
     height: auto;
@@ -430,7 +435,7 @@ html, body {
 .home .all-rights-reserved-2023-FpKU5h {
   background-color: transparent;
   color: #ffffff;
-  font-family: var(--font-family-koulen);
+  font-family: 'Koulen';
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
