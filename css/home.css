@@ -5,6 +5,13 @@
   }
 }
 
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+  html, body {
+    height: auto;
+    width: 100%;
+  }
+}
+
 /* Default styles */
 html, body {
   box-sizing: border-box;
@@ -916,12 +923,13 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 2s; /* Add a 2 second delay to the transition */
+  transition-delay: 2s; 
 }
 
 .home .im-an-aspiring-ui-graphic-designer-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 2s; 
 }
 
 .home .m-y-goal-is-to-alway-nb3zlc {
@@ -935,12 +943,13 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 2s; /* Add a 2 second delay to the transition */
+  transition-delay: 2s; 
 }
 
 .home .m-y-goal-is-to-alway-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 0.5s; 
 }
 
 .home .exceed-expectations-nb3zlc {
@@ -983,12 +992,13 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 1.5s;
+  transition-delay: 1.5s; 
 }
 
 .home .nahome-headband-01-1-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 1.5s; 
 }
 
 .home .n-ahome-y-ohannes-nb3zlc {
@@ -1267,3 +1277,40 @@ html, body {
     opacity: 1;
     transform: translateY(0);
   }
+
+  #scroll-down-container {
+    position: fixed;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  #scroll-down-arrow {
+    width: 80px;
+    bottom: 50px;
+    height: auto;
+    animation: bounce 2s infinite;
+  }
+  
+  #scroll-down-text {
+    color: white;
+    bottom: 260px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
