@@ -992,13 +992,13 @@ html, body {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
-  transition-delay: 1.5s; 
+  transition-delay: 2.0s; 
 }
 
 .home .nahome-headband-01-1-nb3zlc.fade-up {
   opacity: 1;
   transform: translateY(0);
-  transition-delay: 1.5s; 
+  transition-delay: 2.0s; 
 }
 
 .home .n-ahome-y-ohannes-nb3zlc {
