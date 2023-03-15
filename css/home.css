@@ -1317,4 +1317,35 @@ html, body {
       transform: translateY(10px);
     }
   }
+.flex-row {
+  align-items: center;
+  display: flex;
+  min-width: 1711px;
+}
+
+.upwork-logo-1 {
+  height: 126px;
+  margin-bottom: 0.16px;
+  margin-left: 85px;
+  width: 244px;
+}
+
+.vector-1 {
+  height: 144px;
+  width: 833px;
+}
+
+.fiver-1 {
+  height: 89px;
+  margin-bottom: 16.78px;
+  margin-left: 291px;
+  width: 89px;
+}
+
+.artstation-1 {
+  height: 78px;
+  margin-bottom: 27.06px;
+  margin-left: 85px;
+  width: 85px;
+}
   
