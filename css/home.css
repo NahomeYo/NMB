@@ -377,72 +377,6 @@ html, body {
   width: 462px;
 }
 
-.home .indeed-FpKU5h {
-  z-index: 700;
-  height: 112px;
-  width: 126px;
-  fill: #ffffff;
-  transition: fill 0.3s ease-in-out;
-  position: absolute;
-  top: 98%;
-  left: 58%;
-  transform: translate(-50%, -50%);
-}
-
-.home .indeed-FpKU5h:hover {
-  fill: #e7ba3f;
-}
-
-.home .fiver-FpKU5h {
-  z-index: 700;
-  height: 112px;
-  width: 126px;
-  fill: #ffffff;
-  transition: fill 0.3s ease-in-out;
-  position: absolute;
-  top: 98%;
-  left: 41%;
-  transform: translate(-50%, -50%);
-}
-
-.home .fiver-FpKU5h:hover {
-  fill: #e7ba3f;
-}
-
-.home .artstation-FpKU5h {
-  z-index: 700;
-  height: 112px;
-  width: 126px;
-  fill: #ffffff;
-  transition: fill 0.3s ease-in-out;
-  position: absolute;
-  top: 98%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.home .artstation-FpKU5h:hover {
-  fill: #e7ba3f;
-}
-
-.home .all-rights-reserved-2023-FpKU5h {
-  background-color: transparent;
-  color: #ffffff;
-  font-family: Koulen;
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 129px;
-  letter-spacing: 1.65px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: center;
-  top: 3195px;
-  width: 1440px;
-}
-
 .home .nmb-logo-FpKU5h {
   height: 141px;
   left: 519px;
@@ -1310,35 +1244,55 @@ html, body {
       transform: translateY(10px);
     }
   }
-.flex-row {
+
+.home .flex-row {
   align-items: center;
   display: flex;
   min-width: 1711px;
 }
 
-.upwork-logo-1 {
+.home .vector-1 {
+  height: 144px;
+  width: 833px;
+  fill: #ffffff;
+}
+
+.home .upwork-logo-1 {
   height: 126px;
   margin-bottom: 0.16px;
   margin-left: 85px;
   width: 244px;
+  fill: #ffffff;
+  transition: fill 0.3s ease-in-out;
 }
 
-.vector-1 {
-  height: 144px;
-  width: 833px;
+.home .upwork-logo-1:hover {
+  fill: #e7ba3f;
 }
 
-.fiver-1 {
+.home .fiver-1 {
   height: 89px;
   margin-bottom: 16.78px;
   margin-left: 291px;
   width: 89px;
+  fill: #ffffff;
+  transition: fill 0.3s ease-in-out;
 }
 
-.artstation-1 {
+.home .fiver-1:hover {
+  fill: #e7ba3f;
+}
+
+.home .artstation-1 {
   height: 78px;
   margin-bottom: 27.06px;
   margin-left: 85px;
   width: 85px;
+  fill: #ffffff;
+  transition: fill 0.3s ease-in-out;
 }
-  
+
+.home .artstation-1:hover {
+  fill: #e7ba3f;
+}
+
