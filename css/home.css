@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Koulen';
+  font-family: Koulen;
   src: "css/Koulen-Regular.ttf";
 }
 
@@ -435,7 +435,7 @@ html, body {
 .home .all-rights-reserved-2023-FpKU5h {
   background-color: transparent;
   color: #ffffff;
-  font-family: 'Koulen';
+  font-family: Koulen;
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
