@@ -1026,33 +1026,12 @@ html, body {
   width: 80px;
 }
 
-.home .rectangle-10-nb3zlc {
-  background-color: transparent;
-  height: 983px;
-  left: 45px;
+.home .rectangle-10 {
+  height: 953px;
+  left: 80px;
   position: absolute;
-  top: 46px;
-  width: 1706px;
-  stroke: rgb(255, 255, 255); 
-  stroke-width: 10;
-  stroke-linecap: round;
-  fill: transparent;
-}
-
-.home .rectangle-10-nb3zlc {
-  stroke-dasharray: 5000;
-  stroke-dashoffset: 5000;
-  animation: draw 2s ease forwards;
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.home .rectangle-10-nb3zlc.animate-stroke-drawing {
-  animation: stroke-drawing 2s forwards;
+  top: 0;
+  width: 1639px;
 }
 
 .home .location-nb3zlc {
