@@ -14,24 +14,23 @@ html, body {
 
 .home {
   background-color: transparent;
-  border: 1px none;
-  height: 5596px;
+  height: 100vh;
   opacity: 1;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 1800px;
+  width: 100vw;
 }
 
 .home .home-xl4bh6 {
   background-color: #e7ba3f;
-  height: 1024px;
+  height: 100vh;
   left: -8px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
   top: 0px;
-  width: 1808px;
+  width: 100vw;
   z-index: 50;
 }
 
@@ -702,24 +701,24 @@ html, body {
 
 .home .genesis-1-PNDCdQ {
   background-color: transparent;
-  height: 409px;
-  left: 252px;
+  height: 478px;
+  left: 607.75px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 277px;
+  width: 358px;
 }
 
 .home .goat-1-PNDCdQ {
   background-color: transparent;
-  height: 485px;
-  left: -0px;
+  height: 478px;
+  left: 230px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 239px;
+  width: 259px;
 }
 
 .home .finals-1-PNDCdQ {
