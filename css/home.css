@@ -14,23 +14,23 @@ html, body {
 
 .home {
   background-color: transparent;
-  height: 100vh;
+  height: 5596px;
   opacity: 1;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 100vw;
+  width: 1800px;
 }
 
 .home .home-xl4bh6 {
   background-color: #e7ba3f;
-  height: 100vh;
+  height: 1024px;
   left: -8px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
   top: 0px;
-  width: 100vw;
+  width: 1808px;
   z-index: 50;
 }
 
