@@ -14,6 +14,7 @@ html, body {
 
 .home {
   background-color: transparent;
+  border: 1px none;
   height: 5596px;
   opacity: 1;
   overflow: hidden;
@@ -701,24 +702,24 @@ html, body {
 
 .home .genesis-1-PNDCdQ {
   background-color: transparent;
-  height: 478px;
-  left: 607.75px;
+  height: 409px;
+  left: 252px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 358px;
+  width: 277px;
 }
 
 .home .goat-1-PNDCdQ {
   background-color: transparent;
-  height: 478px;
-  left: 230px;
+  height: 485px;
+  left: -0px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 259px;
+  width: 239px;
 }
 
 .home .finals-1-PNDCdQ {
@@ -1299,4 +1300,3 @@ html, body {
       transform: translateY(20px);
     }
   }
-  
