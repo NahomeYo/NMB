@@ -705,7 +705,7 @@ position: absolute;
 width: 358.5px;
 height: 478px;
 left: 607.75px;
-top: 1361px;
+top: 0px;
 
 background: url(image_original-1.jpg);
 }
@@ -715,7 +715,7 @@ position: absolute;
 width: 259.47px;
 height: 478px;
 left: 329px;
-top: 1361px;
+top: 0px;
 
 background: url(image_original.jpg);
 }
@@ -725,7 +725,7 @@ background: url(image_original.jpg);
 width: 202.47px;
 height: 484.72px;
 left: 992px;
-top: 1361px;
+top: 0px;
 
 background: url(finals.jpg);
 border-radius: 25.2037px;
@@ -736,7 +736,7 @@ border-radius: 25.2037px;
 width: 309.65px;
 height: 257.07px;
 left: 1208px;
-top: 1361px;
+top: 0px;
 
 background: url(Sea.jpg);
 border-radius: 36.9114px;
