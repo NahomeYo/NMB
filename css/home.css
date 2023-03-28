@@ -701,25 +701,19 @@ html, body {
 }
 
 .home .genesis-1-PNDCdQ {
-  background-color: transparent;
-height: 478px;
-  left: 252px;
-  mix-blend-mode: normal;
-  object-fit: cover;
   position: absolute;
-  top: 0px;
 width: 358.5px;
+height: 478px;
+left: 607.75px;
+top: 1361px;
 }
 
 .home .goat-1-PNDCdQ {
-  background-color: transparent;
+  position: absolute;
+width: 259.47px;
 height: 478px;
 left: 329px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
 top: 1361px;
-  width: 259.47px;
 }
 
 .home .finals-1-PNDCdQ {
