@@ -5,13 +5,6 @@
   }
 }
 
-@media only screen and (max-width: 414px) and (max-height: 896px) {
-  html, body {
-    height: auto;
-    width: 100%;
-  }
-}
-
 /* Default styles */
 html, body {
   box-sizing: border-box;
@@ -714,7 +707,7 @@ html, body {
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 0px;
+  top: 1361px;
   width: 358.5px;
 }
 
