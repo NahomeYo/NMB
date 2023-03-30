@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
     body {
-    max-width: 320px;
+    max-width: 100%;
     }
 }
 
@@ -9,8 +9,8 @@ html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  left: 0;
-  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .home {
