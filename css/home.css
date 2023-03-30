@@ -14,8 +14,6 @@ html, body {
 }
 
 .home {
-  background-color: transparent;
-  border: 1px none;
   height: 5596px;
   opacity: 1;
   overflow: hidden;
