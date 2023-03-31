@@ -1310,4 +1310,117 @@ body {
     padding: 0px;
   }
 }
+
+/* Small phones line iPhone 5 SE */
+@media screen and (max-width:374px) {
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* Regular phones like Iphone X + */
+@media only screen and (min-width:375px) {
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* landscape mobile devices */
+@media only screen and (min-width:480px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* tablet portrait */
+@media only screen and (min-width:768px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* tablet landscape */ 
+@media only screen and (min-width:1024px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/*Small Monitor Screen */
+@media only screen and (min-width:1280px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* med Monitor Screen */
+ @media only screen and (min-width:1440px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+
+/* Large Monitor */
+@media only screen and (min-width:1920px){
+  html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
   
