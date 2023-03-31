@@ -28,6 +28,19 @@
   }
 }
 
+:root { 
+  --black: #000000;
+  --gable-green: #182e35;
+  --tulip-tree: #e8ba40;
+ 
+  --font-size-l: 76px;
+  --font-size-m: 47px;
+  --font-size-xl: 83.7px;
+  --font-size-xxl: 100px;
+ 
+  --font-family-koulen: "Koulen", Helvetica;
+}
+
 /* Default styles */
 html {
   box-sizing: border-box;
