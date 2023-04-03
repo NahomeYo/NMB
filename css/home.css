@@ -945,12 +945,15 @@ body {
 
 .home .adobe-creative-cloud-nb3zlc {
   background-color: transparent;
-  height: 939px;
+  min-height: 939px;
   left: 264px;
   mix-blend-mode: darken;
-  position: fixed;
   top: 62px;
   width: 1274px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home .nahome-headband-01-1-nb3zlc {
