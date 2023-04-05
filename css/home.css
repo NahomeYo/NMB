@@ -4,6 +4,14 @@ html {
   overflow-x: hidden;
 }
 
+.home {
+  height: 5596px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position:absolute;
+  width: 1800px;
+}
+
 .home .home-xl4bh6 {
   background-color: #e7ba3f;
   height: 1024px;
