@@ -61,24 +61,4 @@ window.addEventListener('scroll', function() {
           elem.classList.add('visible');
         }
       });
-
-      var computerIcon = document.getElementById('computer-icon');
-      var paintIcon = document.getElementById('paint-icon');
-      var graphicGallery = document.querySelector('.graphic-gallery');
-      var programmingGallery = document.querySelector('.programming-gallery');
-  
-      computerIcon.addEventListener('click', function() {
-        setTimeout(function() {
-          graphicGallery.classList.add('shift-left');
-          programmingGallery.classList.add('shift-right');
-        }, 10);
-      });
-  
-      paintIcon.addEventListener('click', function() {
-        setTimeout(function() {
-          graphicGallery.classList.remove('shift-left');
-          programmingGallery.classList.remove('shift-right');
-        }, 10);
-      });
 });
-  
