@@ -21,19 +21,9 @@ html {
   }
 }
 
-.graphic-gallery {
-  transition: transform 0.5s; 
-}
-.shift-left {
-  transform: translateX(-100%);
-}
-.shift-right {
-  transform: translateX(100%);
-}
-
 /* screen - desktop */
 .desktop #homescreen {
-  top: 0.069vw;
+  top: 0vw;
   height: 71.111vw;
   padding: 3.472vw;
 }
@@ -298,7 +288,7 @@ top: 31.875vw;
   height: 89.861vw;
   top: 91.528vw;
   opacity: 1; /* Initially hidden */
-  transform: translateY(400px); /* Initially positioned lower on the y-axis */
+  transform: translateY(27.778vw); /* Initially positioned lower on the y-axis */
   transition: opacity 0.8s ease-out, transform 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.0s;
   z-index: -40;
 }
@@ -309,10 +299,12 @@ top: 31.875vw;
 }
 
 .desktop .skyline-bottom {
+  position: absolute;
+  width: 100.069vw;
   height: 108.958vw;
-  top: 125.764vw;
-  opacity: 1; /* Initially hidden */
-  transform: translateY(-200px); /* Initially positioned lower on the y-axis */
+  left: 0vw;
+  top: 125.792vw;
+  transform: translateY(-27.778vw); /* Initially positioned lower on the y-axis */
   transition: opacity 0.8s ease-out, transform 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.5s;
 }
 
@@ -334,7 +326,7 @@ top: 31.875vw;
   height: 51.875vw;
   left: 0;
   position: absolute;
-  top: 103.056vw;
+  top: 25.43%;
   width: 100vw;
 }
 
@@ -344,6 +336,7 @@ top: 31.875vw;
   position: absolute;
   top: 123.819vw;
   width: 61.389vw;
+  z-index: -39;
 }
 
 .desktop .creative-cloud-logo {
@@ -353,7 +346,7 @@ top: 31.875vw;
   position: fixed;
   top: 2vw;
   width: 89.375vw;
-  z-index: -26;
+  z-index: -36;
   mix-blend-mode: darken;
 }
 
@@ -380,15 +373,18 @@ top: 31.875vw;
   position: absolute;
   top: 94.444vw;
   width: 44.583vw;
-  animation: bounce 1s infinite 3s;
+  animation: bounce 1s infinite;
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -421,7 +417,7 @@ top: 31.875vw;
 
 .fade-up {
   opacity: 0;
-  transform: translateY(40px);
+  transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -467,12 +463,12 @@ top: 31.875vw;
   position: absolute;
   top: 394.861vw;
   width: 5.764vw;
-  fill: #ffffff;
+  fill: #DCB355;
   transition: fill 0.3s ease-in-out;
 }
 
 .desktop .fiver-desktop:hover {
-  fill: #e7ba3f;
+  fill: #ffffff;
 }
 
 .desktop .artstation-desktop {
@@ -481,6 +477,12 @@ top: 31.875vw;
   position: absolute;
   top: 394.722vw;
   width: 6.875vw;
+  fill: #DCB355;
+  transition: fill 0.3s ease-in-out;
+}
+
+.desktop .artstation-desktop:hover {
+  fill: white;
 }
 
 .desktop .upwork-desktop {
@@ -489,6 +491,12 @@ top: 31.875vw;
   position: absolute;
   top: 394.722vw;
   width: 16.806vw;
+  fill: #DCB355; 
+  transition: fill 0.3s; 
+}
+
+.desktop .upwork-desktop:hover {
+  fill: rgb(255, 255, 255); 
 }
 
 .desktop .github-desktop {
@@ -497,7 +505,13 @@ top: 31.875vw;
   position: absolute;
   top: 394.722vw;
   width: 6.806vw;
+  fill: #DCB355;
+  transition: fill 0.3s; 
 }
+
+  .desktop .github-desktop:hover {
+    fill: white;
+  }
 
 .desktop .all-rights {
   height: 5.208vw;
@@ -892,28 +906,7 @@ top: 31.875vw;
   position: absolute;
   top: 168.611vw;
   width: 18.542vw;
-  display: inline-block;
-}
-
-.paint-icon::after {
-  content: "Graphic Portfolio";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  line-height: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
-
-.paint-icon:hover::after {
-  opacity: 1;
+  cursor: pointer;
 }
 
 .desktop .computer-icon {
@@ -922,6 +915,7 @@ top: 31.875vw;
   position: absolute;
   top: 168.681vw;
   width: 17.639vw;
+  cursor: pointer;
 }
 
 .desktop .css-app {
@@ -1144,9 +1138,3 @@ top: 31.875vw;
     transform: translateY(0);
   }
 }
-
-
-
-
-
-
