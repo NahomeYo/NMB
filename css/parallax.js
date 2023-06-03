@@ -153,10 +153,4 @@ window.addEventListener('scroll', function() {
             this.classList.remove('bounce');
         });
     });
-});
-  
-  
-
-  
-  
-  
+}); 
