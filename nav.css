@@ -1,0 +1,153 @@
+.index-nav {
+  z-index: 998;
+  overflow: hidden;
+  position: fixed;
+  scroll-behavior: smooth;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.index-nav img {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.index-nav a {
+  font-family: 'Koulen';
+  color: white;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.index-nav a:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.index-nav a:hover:not(:first-child)::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+.iphone-nav {
+  z-index: 999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.iphone-nav img {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.iphone-nav a {
+  font-family: 'Koulen';
+  color: white;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.iphone-nav a:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.iphone-nav a:hover:not(:first-child)::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+
+.ipad-nav {
+  z-index: 999;
+  overflow: hidden;
+  position: fixed;
+  scroll-behavior: smooth;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.ipad-nav img {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.ipad-nav a {
+  font-family: 'Koulen';
+  color: white;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.ipad-nav a:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.ipad-nav a:hover:not(:first-child)::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
