@@ -1,0 +1,1188 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.bounce {
+  animation: bounceAnimation 0.5s ease-in-out;
+  transform-origin: center bottom;
+}
+
+@keyframes bounceAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* screen - desktop */
+.desktop #homescreen {
+  top: 0vw;
+  height: 71.111vw;
+  padding: 3.472vw;
+}
+.desktop #aboutscreen {
+  height: 75.764vw;
+  padding: 3.472vw; 
+}
+.desktop #galleryscreen {
+  height: 74.306vw;
+  padding:3.472vw;
+}
+
+@font-face {
+  font-family: 'Forza';
+  src: url('Forza.ttf');
+}
+
+.desktop {
+  align-items: flex-start;
+  display: flex;
+  width: 100vw;
+  height: 413.403vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.desktop .nmb-webpage-thumbnail {
+  height: 34.792vw;
+  margin-top: 2.708vw;
+  width: 44.236vw;
+}
+
+.desktop .fashion-thumbnail {
+  align-self: flex-end;
+  height: 24.375vw;
+  margin-right: 4.236vw;
+  object-fit: cover;
+  width: 34.583vw;
+}
+
+.desktop .overlap-group {
+  height: 413.403vw;
+  position: relative;
+  width: 101.389vw;
+}
+
+.desktop .home-background {
+  background-color: #dcb355;
+  height: 77.847vw;
+  left: 0;
+  position: absolute;
+  top: 0vw;
+  width: 101.389vw;
+  z-index: -25;
+}
+
+.desktop .upper-left-cloud {
+  height: 11.736vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18.75vw;
+  z-index: -20;
+}
+
+.desktop .bottom-cloud {
+  height: 51.319vw;
+  left: 0;
+  position: absolute;
+  top: 11.736vw;
+  width: 100vw;
+  z-index: -21;
+}
+
+.desktop .upper-right-cloud {
+  height: 18.889vw;
+  left: 77.292vw;
+  position: absolute;
+  top: 0;
+  width: 22.708vw;
+  z-index: -22;
+}
+
+.desktop .center-cloud {
+  height: 31.528vw;
+  left: 52.917vw;
+  position: absolute;
+  top: 0;
+  width: 28.194vw;
+  z-index: -23;
+}
+
+.desktop .seattle {
+  height: 47.847vw;
+  left: 0;
+  position: absolute;
+  top: 12.708vw;
+  width: 100vw;
+  z-index: -19;
+}
+
+.desktop .trees-dark {
+  height: 55.417vw;
+  top: 24.722vw;
+  z-index: -18;
+}
+
+.desktop .trees-light {
+  height: 41.042vw;
+  top: 34.792vw;
+  z-index: -17;
+}
+
+.desktop .ae-app {
+  height: 13.125vw;
+  left: 83.333vw;
+  position: absolute;
+  top: 7.431vw;
+  width: 11.111vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.desktop .anime-tree-5 {
+  height: 41.597vw;
+  left: 67.708vw;
+  position: absolute;
+  top: 40.903vw;
+  width: 31.319vw;
+  z-index: -8;
+}
+
+.desktop .anime-tree-4 {
+  height: 35.972vw;
+  left: 87.292vw;
+  position: absolute;
+  top: 50.278vw;
+  width: 12.708vw;
+  z-index: -7;
+}
+
+.desktop .anime-tree-3 {
+  height: 43.819vw;
+  left: 9.028vw;
+  position: absolute;
+  top: 37.431vw;
+  width: 28.056vw;
+  z-index: -6;
+}
+
+.desktop .anime-tree-2 {
+  height: 37.986vw;
+  left: 0;
+  position: absolute;
+  top: 45.833vw;
+  width: 20.903vw;
+  z-index: -5;
+}
+
+.desktop .anime-tree-1 {
+  height: 40.625vw;
+  left: 18.819vw;
+  position: absolute;
+  top: 40.347vw;
+  width: 31.667vw;
+  z-index: -4;
+}
+
+.desktop .nmb-logo {
+  height: 31.667vw;
+  left: 24.514vw;
+  position: absolute;
+  top: 8.056vw;
+  width: 52.431vw;
+}
+
+.desktop .nahome-standing {
+  height: 31.319vw;
+  left: 40.972vw;
+  object-fit: cover;
+  position: absolute;
+  top: 11.389vw;
+  width: 19.444vw;
+}
+
+.desktop .house {
+  object-fit: cover;
+  position: absolute;
+  position: absolute;
+width: 94.415vw;
+height: 52.847vw;
+left: 3.264vw;
+top: 31.875vw;
+}
+
+.desktop .ps-app {
+  height: 12.083vw;
+  left: 69.583vw;
+  object-fit: cover;
+  position: absolute;
+  top: 25.833vw;
+  width: 8.194vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: -11;
+}
+
+.desktop .xd-app {
+  height: 10.694vw;
+  left: 16.181vw;
+  object-fit: cover;
+  position: absolute;
+  top: 24.097vw;
+  width: 11.528vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: -9;
+}
+
+.desktop .html-app {
+  height: 17.778vw;
+  left: 3.264vw;
+  object-fit: cover;
+  position: absolute;
+  top: 6.389vw;
+  width: 11.528vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.desktop .house-indeed {
+  height: 4.514vw;
+  left: 61.111vw;
+  position: absolute;
+  top: 43.056vw;
+  width: 3.194vw;
+}
+
+.desktop .house-fiver {
+  height: 4.861vw;
+  left: 54.097vw;
+  position: absolute;
+  top: 43.056vw;
+  width: 5.208vw;
+}
+
+.desktop .house-artstation {
+  height: 4.375vw;
+  left: 57.361vw;
+  position: absolute;
+  top: 49.306vw;
+  width: 4.722vw;
+}
+
+.desktop .about-background {
+  background-color: #182e35;
+  height: 82.5vw;
+  left: 0;
+  position: absolute;
+  top: 77.917vw;
+  width: 100vw;
+  z-index: -50;
+}
+
+.desktop .skyline-top {
+  height: 89.861vw;
+  top: 91.528vw;
+  opacity: 1; /* Initially hidden */
+  transform: translateY(27.778vw); /* Initially positioned lower on the y-axis */
+  transition: opacity 0.8s ease-out, transform 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.0s;
+  z-index: -40;
+}
+
+.desktop .skyline-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.desktop .skyline-bottom {
+  position: absolute;
+  width: 100.069vw;
+  height: 108.958vw;
+  left: 0vw;
+  top: 125.792vw;
+  transform: translateY(-27.778vw); /* Initially positioned lower on the y-axis */
+  transition: opacity 0.8s ease-out, transform 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.5s;
+}
+
+.desktop .skyline-bottom.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.desktop .hi-im-nahome {
+  height: 10.694vw;
+  left: 19.931vw;
+  position: absolute;
+  top: 91.667vw;
+  width: 58.264vw;
+  z-index: -41;
+}
+
+.desktop .dots {
+  height: 51.875vw;
+  left: 0;
+  position: absolute;
+  top: 25.43%;
+  width: 100vw;
+}
+
+.desktop .exceed {
+  height: 7.222vw;
+  left: 1.319vw;
+  position: absolute;
+  top: 123.819vw;
+  width: 61.389vw;
+  z-index: -39;
+}
+
+.desktop .creative-cloud-logo {
+  height: 65.764vw;
+  left: 5.347vw;
+  object-fit: cover;
+  position: fixed;
+  top: 2vw;
+  width: 89.375vw;
+  z-index: -36;
+  mix-blend-mode: darken;
+}
+
+.desktop .ill-always-create-de {
+  height: 8.889vw;
+  left: 1.389vw;
+  position: absolute;
+  top: 113.75vw;
+  width: 55.208vw;
+}
+
+.desktop .im-an-aspiring-ui-graphic-designer {
+  height: 4.861vw;
+  left: 1.319vw;
+  position: absolute;
+  top: 108.194vw;
+  width: 66.667vw;
+  z-index: -30;
+}
+
+.desktop .nahome-headband {
+  height: 49.722vw;
+  left: 55.417vw;
+  position: absolute;
+  top: 94.444vw;
+  width: 44.583vw;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.desktop .name {
+  height: 4.514vw;
+  left: 1.597vw;
+  object-fit: cover;
+  position: absolute;
+  top: 142.847vw;
+  width: 28.125vw;
+}
+
+.desktop .location {
+  height: 4.306vw;
+  left: 34.861vw;
+  object-fit: cover;
+  position: absolute;
+  top: 143.056vw;
+  width: 20vw;
+}
+
+.desktop .gmail {
+  height: 3.194vw;
+  left: 60vw;
+  object-fit: cover;
+  position: absolute;
+  top: 144.167vw;
+  width: 38.958vw;
+}
+
+.fade-up-medium {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up-medium.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1s;
+}
+
+.fade-up-super-slow {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up-super-slow.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 2.5s;
+}
+
+.fade-up-slow {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up-slow.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 2s;
+}
+
+.fade-up-fast {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease; 
+}
+
+.fade-up-fast.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.desktop .ellipse-4 {
+  background-color: #c39b3f;
+  border-radius: 0.486vw/0.486vw;
+  height: 1.042vw;
+  left: 31.806vw;
+  position: absolute;
+  top: 144.722vw;
+  width: 0.972vw;
+}
+
+.desktop .ellipse-5 {
+  background-color: #c39b3f;
+  border-radius: 0.486vw/0.486vw;
+  height: 1.042vw;
+  left: 56.944vw;
+  position: absolute;
+  top: 144.722vw;
+  width: 0.972vw;
+}
+
+.desktop .gallery-background {
+  background-color: #182e35;
+  height: 254.236vw;
+  left: 0;
+  position: absolute;
+  top: 159.167vw;
+  width: 100vw;
+  z-index: -26;
+}
+
+.desktop .fiver-desktop {
+  height: 5.764vw;
+  left: 17.986vw;
+  position: absolute;
+  top: 394.861vw;
+  width: 5.764vw;
+  fill: #DCB355;
+  transition: fill 0.3s ease-in-out;
+}
+
+.desktop .fiver-desktop:hover {
+  fill: #ffffff;
+}
+
+.desktop .artstation-desktop {
+  height: 5.903vw;
+  left: 75.069vw;
+  position: absolute;
+  top: 394.722vw;
+  width: 6.875vw;
+  fill: #DCB355;
+  transition: fill 0.3s ease-in-out;
+}
+
+.desktop .artstation-desktop:hover {
+  fill: white;
+}
+
+.desktop .upwork-desktop {
+  height: 4.722vw;
+  left: 32.569vw;
+  position: absolute;
+  top: 394.722vw;
+  width: 16.806vw;
+  fill: #DCB355; 
+  transition: fill 0.3s; 
+}
+
+.desktop .upwork-desktop:hover {
+  fill: rgb(255, 255, 255); 
+}
+
+.desktop .github-desktop {
+  height: 6.597vw;
+  left: 58.194vw;
+  position: absolute;
+  top: 394.722vw;
+  width: 6.806vw;
+  fill: #DCB355;
+  transition: fill 0.3s; 
+}
+
+  .desktop .github-desktop:hover {
+    fill: white;
+  }
+
+.desktop .all-rights {
+  height: 5.208vw;
+  left: 32.5vw;
+  object-fit: cover;
+  position: absolute;
+  top: 403.194vw;
+  width: 32.083vw;
+}
+
+.desktop .logos-header {
+  height: 38.056vw;
+  left: 4.583vw;
+  position: absolute;
+  top: 188.125vw;
+  width: 90.972vw;
+}
+
+.desktop .flier-header {
+  height: 39.861vw;
+  left: 4.583vw;
+  position: absolute;
+  top: 230.069vw;
+  width: 90.972vw;
+}
+
+.desktop .pm-header {
+  height: 50.764vw;
+  left: 4.583vw;
+  position: absolute;
+  top: 274.375vw;
+  width: 90.972vw;
+}
+
+.desktop .brochure-header {
+  height: 32.153vw;
+  left: 4.583vw;
+  position: absolute;
+  top: 329.861vw;
+  width: 90.972vw;
+}
+
+.desktop .video-editing-header {
+  height: 18.958vw;
+  left: 4.583vw;
+  position: absolute;
+  top: 367.153vw;
+  width: 90.972vw;
+}
+
+.desktop .winter-basketball-2 {
+  height: 36.458vw;
+  left: 7.083vw;
+  object-fit: cover;
+  position: absolute;
+  top: 231.667vw;
+  width: 19.653vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .winter-basketball-2:hover {
+  height: 40vw;
+  width: 21vw;
+  z-index: 100;
+}
+
+
+.desktop .dental-van-2 {
+  height: 36.528vw;
+  left: 27.986vw;
+  object-fit: cover;
+  position: absolute;
+  top: 231.667vw;
+  width: 22.5vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .dental-van-2:hover {
+  height: 40vw;
+  width: 25vw;
+  z-index: 100;
+}
+
+.desktop .pensoteer-flyer-2 {
+  height: 36.389vw;
+  left: 51.597vw;
+  object-fit: cover;
+  position: absolute;
+  top: 231.667vw;
+  width: 22.431vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .pensoteer-flyer-2:hover {
+  height: 40vw;
+  width: 25vw;
+  z-index: 100;
+}
+
+.desktop .abouna-brochure {
+  height: 25.764vw;
+  left: 5.486vw;
+  position: absolute;
+  top: 332.917vw;
+  width: 31.667vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .abouna-brochure:hover {
+  width: 35vw;
+  height: 30vw;
+  z-index: 100;
+}
+
+.desktop .asd-brochure {
+  height: 25.833vw;
+  left: 37.708vw;
+  position: absolute;
+  top: 332.917vw;
+  width: 33.472vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .asd-brochure:hover {
+  width: 35vw;
+  height: 30vw;
+  z-index: 100;
+}
+
+.desktop .mv-thumbnail {
+  height: 11.806vw;
+  left: 30.278vw;
+  object-fit: cover;
+  position: absolute;
+  top: 370.486vw;
+  width: 15.347vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .mv-thumbnail:hover {
+  height: 15vw;
+  width: 20vw;
+  z-index: 100;
+}
+
+.desktop .iom-thumbnail {
+  height: 11.736vw;
+  left: 47.708vw;
+  object-fit: cover;
+  position: absolute;
+  top: 370.972vw;
+  width: 16.736vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .iom-thumbnail:hover {
+  height: 15vw;
+  width: 20vw;
+  z-index: 100;
+}
+
+.desktop .ct-thumbnail {
+  height: 11.736vw;
+  left: 67.014vw;
+  object-fit: cover;
+  position: absolute;
+  top: 370.972vw;
+  width: 15.347vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .ct-thumbnail:hover {
+  height: 15vw;
+  width: 20vw;
+  z-index: 100;
+}
+
+.desktop .messi {
+  height: 36.806vw;
+  left: 6.181vw;
+  object-fit: cover;
+  position: absolute;
+  top: 285.833vw;
+  width: 20.625vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .messi:hover {
+  height: 40vw;
+  width: 22vw;
+  z-index: 100;
+}
+
+.desktop .genesis-poster-2 {
+  height: 36.944vw;
+  left: 25.903vw;
+  object-fit: cover;
+  position: absolute;
+  top: 285.694vw;
+  width: 28.681vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .genesis-poster-2:hover {
+  height: 40vw;
+  width: 30vw;
+  z-index: 100;
+}
+
+.desktop .pensoteer-poster-red-2 {
+  height: 36.875vw;
+  left: 53.542vw;
+  object-fit: cover;
+  position: absolute;
+  top: 285.764vw;
+  width: 21.389vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .pensoteer-poster-red-2:hover {
+  height: 40vw;
+  width: 25vw;
+  z-index: 100;
+}
+
+.desktop .draft-4 {
+  height: 36.875vw;
+  left: 73.889vw;
+  object-fit: cover;
+  position: absolute;
+  top: 285.764vw;
+  width: 21.736vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .draft-4:hover {
+  height: 40vw;
+  width: 25vw;
+  z-index: 100;
+}
+
+.desktop .urban-coffee-logo-2 {
+  height: 32.917vw;
+  left: 68.681vw;
+  object-fit: cover;
+  position: absolute;
+  top: 187.014vw;
+  width: 26.806vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .urban-coffee-logo-2:hover {
+  height: 35vw; 
+  width: 25vw;  
+  z-index: 99;
+}
+
+.desktop .st-mary-logo-2 {
+  height: 27.708vw;
+  left: 36.875vw;
+  object-fit: cover;
+  position: absolute;
+  top: 189.097vw;
+  width: 20.417vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .st-mary-logo-2:hover {
+  width:25vw;
+  height: 30vw;
+  z-index: 100;
+}
+
+.desktop .king-tut-logo-2 {
+  height: 28.75vw;
+  left: 52.431vw;
+  object-fit: cover;
+  position: absolute;
+  top: 197.431vw;
+  width: 24.514vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .king-tut-logo-2:hover {
+  width: 25vw; 
+  height: 30vw;
+  z-index: 100;
+}
+
+.desktop .smsa-logo-2 {
+  height: 23.75vw;
+  left: 14.514vw;
+  object-fit: cover;
+  position: absolute;
+  top: 201.944vw;
+  width: 26.458vw;
+  transition: all 0.3s ease; 
+}
+
+.desktop .smsa-logo-2:hover {
+  width: 30vw;
+  height: 25vw;
+  z-index: 100;
+}
+
+
+.desktop .logos-photoshop {
+  height: 8.472vw;
+  left: 7.083vw;
+  position: absolute;
+  top: 211.042vw;
+  width: 8.681vw;
+}
+
+.desktop .logos-illustrator {
+  height: 8.472vw;
+  left: 7.083vw;
+  position: absolute;
+  top: 200.556vw;
+  width: 8.681vw;
+}
+
+.desktop .fliers-photoshop {
+  left: 85.625vw;
+  top: 251.667vw;
+}
+
+.desktop .fliers-illustrator {
+  left: 75.278vw;
+  top: 250vw;
+}
+
+.desktop .pm-photoshop {
+  height: 8.472vw;
+  left: 52.778vw;
+  position: absolute;
+  top: 275.903vw;
+  width: 8.681vw;
+}
+
+.desktop .brochures-photoshop {
+  left: 84.236vw;
+  top: 345.903vw;
+}
+
+.desktop .brochures-illustrator {
+  left: 73.889vw;
+  top: 343.75vw;
+}
+
+.desktop .premiere-pro {
+  height: 8.75vw;
+  left: 83.889vw;
+  position: absolute;
+  top: 371.528vw;
+  width: 8.611vw;
+}
+
+.desktop .ellipse-1 {
+  background-color: var(--cape-honey);
+  border-radius: 0.972vw/0.972vw;
+  height: 1.944vw;
+  left: 49.097vw;
+  position: absolute;
+  top: 175.833vw;
+  width: 1.875vw;
+}
+
+.desktop .ellipse-2 {
+  background-color: var(--cape-honey);
+  border-radius: 0.972vw/0.972vw;
+  height: 1.944vw;
+  left: 42.153vw;
+  position: absolute;
+  top: 175.833vw;
+  width: 1.875vw;
+}
+
+.desktop .ellipse-3 {
+  background-color: var(--cape-honey);
+  border-radius: 0.972vw/0.972vw;
+  height: 1.944vw;
+  left: 56.042vw;
+  position: absolute;
+  top: 175.833vw;
+  width: 1.875vw;
+}
+
+.desktop .paint-icon {
+  height: 16.389vw;
+  left: 17.083vw;
+  position: absolute;
+  top: 168.611vw;
+  width: 18.542vw;
+  cursor: pointer;
+}
+
+.desktop .computer-icon {
+  height: 16.25vw;
+  left: 65.486vw;
+  position: absolute;
+  top: 168.681vw;
+  width: 17.639vw;
+  cursor: pointer;
+}
+
+.desktop .css-app {
+  height: 20.903vw;
+  left: 74.306vw;
+  object-fit: cover;
+  position: absolute;
+  top: 41.597vw;
+  width: 19.167vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: 5;
+}
+
+.desktop .ai-app {
+  height: 23.819vw;
+  left: 5.278vw;
+  object-fit: cover;
+  position: absolute;
+  top: 39.722vw;
+  width: 22.431vw;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: 4;
+}
+
+.desktop .front-tree-right {
+  height: 50.417vw;
+  left: 0;
+  position: absolute;
+  top: 52.708vw;
+  width: 15.694vw;
+  z-index: 6;
+}
+
+.desktop .front-tree-left {
+  height: 48.75vw;
+  left: 84.792vw;
+  position: absolute;
+  top: 54.722vw;
+  width: 15.208vw;
+  z-index: 7;
+}
+
+.desktop .brochures {
+  height: 8.472vw;
+  position: absolute;
+  width: 8.681vw;
+}
+
+.desktop .fliers {
+  height: 8.472vw;
+  position: absolute;
+  width: 8.681vw;
+}
+
+.desktop .skyline {
+  left: 0;
+  position: absolute;
+  width: 100vw;
+}
+
+.desktop .trees {
+  left: 0;
+  position: absolute;
+  width: 100vw;
+}
+
+/* loading screen - desktop */
+
+.overlay {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgb(24, 46, 53) 0%, rgb(2.38, 28.15, 36.35) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeOut 3s forwards 3s;
+}
+
+/* Keyframe animation to fade out the overlay */
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}   
+
+.this-website-was-ma {
+  left: 14.93vw;
+  line-height: 1.97vw;
+  position: absolute;
+  text-align: center;
+  top: 15.39vw;
+  width: 70.14vw;
+}
+
+.span0 {
+  font-family: 'Forza';
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  line-height: 3.26vw;
+  text-align: center;
+}
+
+.span1 {
+  letter-spacing: 0;
+  line-height: 3.26vw;
+}
+
+.span2 {
+  color: white;
+  font-size: 5vw;
+  left: 42.99vw;
+  font-weight: 400;
+  letter-spacing: 0.5vw;
+  line-height: 5.12vw;
+  opacity: 0;
+  animation: fadeUpAnimation 1s ease-in-out 1s forwards;
+}
+
+@keyframes fadeUpAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.signature {
+  height: 8.19vw;
+  left: 41.5vw;
+  position: absolute;
+  top: 22.71vw;
+  width: 12.22vw;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawSignature 1s linear forwards 1s;
+}
+
+@keyframes drawSignature {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.swipe-from-left {
+  animation-name: swipeAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+@keyframes swipeAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.swipe-from-up {
+  animation-name: swipeUpAnimation;
+  animation-duration: 1.25s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateY(-120px);
+}
+
+@keyframes swipeUpAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.swipe-from-up {
+  animation-name: appAnimation;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateY(-120px);
+}
+
+@keyframes appAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
